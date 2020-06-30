@@ -10,7 +10,7 @@ let jsonString = JSON.stringify(obj);
 
 /* GET users listing. */
 router.get('/', function(req, res, next) {
-  res.send(jsonString);
+  res.json(jsonString);
 });
 
 module.exports = router;
